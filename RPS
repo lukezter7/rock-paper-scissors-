@@ -1,0 +1,10 @@
+function getUserChoice (userInput) {
+        if (userInput == 'rock' || 'paper' || 'scissors')
+        return userInput.toLowerCase()
+        else 
+        console.log('error');
+
+    }
+    getUserChoice('ball');
+
+    console.log(userInput);
